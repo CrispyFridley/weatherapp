@@ -36,7 +36,7 @@ function App() {
       setWeather(res.data.weather[0].main);
       console.log(res.data);
       setHumidity(res.data.main.humidity);
-      setVisibility(res.data.wind.speed);
+      setWindSpeed(res.data.wind.speed);
       setVisibility(res.data.visibility);
     } catch (err) {
       console.error(err);
