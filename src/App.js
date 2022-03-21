@@ -15,7 +15,7 @@ function App() {
   const [temperature, setTemperature] = useState(0);
   const [cityName, setCityName] = useState("");
   const [humidity, setHumidity] = useState(0);
-  const [visibility, setVisibility] = useState(0);
+  const [visibility, setVisibility] = useState(0)
   const [windspeed, setWindSpeed] = useState(0);
 
   const savePositionToState = (position) => {
